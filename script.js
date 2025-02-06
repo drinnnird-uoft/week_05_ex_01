@@ -1,9 +1,9 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZHJpbm5pcmQiLCJhIjoiY201b2RyYXRhMGt1YTJvcHQ4ZjU4dDYycSJ9.jHNRKSu149-F5s157m1GwA'; // Add default public map token from your Mapbox account
 const map = new mapboxgl.Map({
-container: 'map-container', // map container ID
-style: 'mapbox://styles/drinnird/cm6if66vx008601qq12b6ggk6', // style URL
-center: [..., ...], // starting position [lng, lat]
-zoom:
+    container: 'map-container', // map container ID
+    style: 'mapbox://styles/drinnird/cm6if66vx008601qq12b6ggk6', // style URL
+    center: [-73.39, 43.662], // starting position [lng, lat]
+    zoom: 12
 });
 
 map.on('load', () => {
